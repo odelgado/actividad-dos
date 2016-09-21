@@ -1,0 +1,202 @@
+@import 'https://fonts.googleapis.com/css?family=Libre+Franklin:400,400i,700,700i';
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Libre Franklin", "Sans Serif";
+	color: #333
+}
+
+header {
+	display: flex;
+    padding: 30px 0 0;
+	background-image: url('../img/header.png');
+	margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+	transition: all 200ms ease-in 0s;
+}
+
+.fila {
+	display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+	position: relative;
+	min-height: 1px;
+	padding: 0 15px;
+	float: left;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction: column;
+}
+
+.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+	position: relative;
+}
+
+.un-cuarto {
+	width: 25%;
+}
+
+.tres-cuartos {
+	width: 75%;
+}
+
+.full {
+	width: 100%;
+}
+
+.no-pad {
+	padding: 0;
+}
+
+
+.logo {
+	text-align: center;
+}
+
+.logo img {
+	width: 200px;
+}
+
+.page-title {
+    position: absolute;
+    width: 80%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.page-title h1 {
+	text-align: right;
+    color: #fff;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+nav {
+	background-color: #333;
+}
+
+li.nav-item {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 15px 10px;
+    display: block;
+    color: #fff;
+}
+
+nav a:hover {
+    background-color: #006680;
+}
+
+li.nav-item.active a {
+    background-color: #006680;
+}
+
+section {
+	width: 70%;
+	float: left;
+	padding: 15px 20px;
+	background-color: #eee;
+}
+
+section h2 {
+	text-transform: capitalize;
+	text-align: center;
+}
+
+section p {
+    font-family: 'Libre Franklin';
+    line-height: 24px;
+    text-align: justify;
+}
+
+.img-left {
+	width: 380px;
+	float: left;
+	margin: 0 30px 15px 0;
+}
+
+aside {
+	width: 30%;
+	float: right;
+	padding: 0px 0px 0px 20px;
+}
+
+.side-menu {
+	background-color: #eee;
+	padding: 20px 25px;
+}
+
+.side-menu h4{
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.side-menu ul {
+	list-style-type: disc;
+	padding-left: 25px;
+}
+
+.side-menu ul.links {
+	list-style-type: none;
+}
+
+.side-menu li {
+    padding: 5px 0;
+}
+
+.side-menu ul.links {
+	padding: 0;
+	text-align: center;
+}
+
+section, .side-menu {
+	height: 560px;
+}
+
+ul.links img {
+	max-width: 160px;
+}
+
+ul.links li {
+	padding: 15px 0;
+}
+
+footer {
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	color: #fff;
+	text-align: right;
+}
+
+.foot {
+	background-image: url('../img/header.png');
+	padding: 20px;
+}
